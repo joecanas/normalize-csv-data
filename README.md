@@ -21,8 +21,9 @@ If you have an older version of Python and/or need to install or update a packag
 * [How to install pytz module on mac, Python 3.6](https://teamtreehouse.com/community/how-to-install-pytz-module-on-mac-python-36)
 
 ## Install the application script
-* This is a single-script application. You can [download the git repository](https://github.com/joecanas/normalize_csv_data/archive/master.zip), but you only need the file 'normalize_csv_data.py'.
-* Place the file 'normalize_csv_data.py' in the directory you'd like to use to run the application.
+* [Download the git repository](https://github.com/joecanas/normalize_csv_data/archive/master.zip)
+* This is a single-script application. You only need the file 'normalize_csv_data.py', but the repo also includes the sample CSV input files provided with the exercise instructions, for convenience. Sample output files produced by the application script are also included in the repo.
+* Place the file 'normalize_csv_data.py' in the directory you'd like to use to run the application, along with the sample input files, if desired.
 
 # Usage
 The script reads data from stdin (an input file specified at the command line, or the piped or redirected data from another application. The script normalizes the data per schema-specific transformation rules, and returns the normalized data via stdout. The output can be rendered in a terminal (default), redirected to a file, or piped/redirected to another application.
