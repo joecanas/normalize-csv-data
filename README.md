@@ -1,7 +1,7 @@
 
 # Setup
 ## Requirements
-* macOS 10.13 (should work on 10.10+). Will also work on Ubuntu 16.04.
+* macOS 10.13 (should work on 10.10+). Will also work on Ubuntu 16.04 (using 'python' vs 'python3'). 
 * Python 3.6+
 * The pytz package (for timezone functionality):
 
