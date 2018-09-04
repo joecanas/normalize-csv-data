@@ -125,7 +125,7 @@ def main():
             # Normalize interdependent duration fields prior to insertion in output row
             row['FooDuration'] = getDurationSeconds(row['FooDuration'])
             row['BarDuration'] = getDurationSeconds(row['BarDuration'])
-            row['TotalDuration'] = float(row['FooDuration']) + float(row['BarDuration'])
+            row['TotalDuration'] = str(float(row['FooDuration']) + float(row['BarDuration']))
 
             # Under Python 3.6+, the built-in dict tracks insertion order. As of Python 3.7,
             # this is no longer an implementation detail and instead becomes a language feature.
@@ -175,6 +175,7 @@ APPLICATION TESTING:
 NEW/MODIFIED FUNCTIONALITY (pending business requirements):
 
 - Verify business requirement for double-quoting all fields in CSV output
+- Verify requirement for floating point accuracy, e.g., 3 decimal places?
 - Add data validations (length, type, characters)
 - Support timestamps that already contain timezone information
 - Timestamp input (mm/dd/yy) has two-digit year; should values always be
