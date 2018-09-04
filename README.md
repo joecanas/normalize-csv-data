@@ -1,5 +1,5 @@
 
-# Setup:
+# Setup
 ## Requirements
 * macOS 10.13 (should work on 10.10+). Will also work on Ubuntu 16.04.
 * Python 3.6+
@@ -28,7 +28,7 @@ cd /path/to/working_directory
 ```
 * Place the script 'normalize_csv_data.py' in the directory.
 
-# Usage:
+# Usage
 The script reads data from stdin (an input file specified at the command line, or the piped or redirected data from another application. The script parses the data to normalize it per schema-specific transformation rules, and returns the normalized data via stdout. The output can be rendered in a terminal (default), redirected to a file, or piped/redirected to another application.
 
 1. Process a CSV file and get the normalized data returned via stdout:
