@@ -16,9 +16,9 @@ brew install pytz
 ```
 
 Instructions for installing Python3 (with pip) or homebrew on a Mac: 
-[Python3 + pip](https://itsevans.com/install-pip-osx/)
-[homebrew](https://brew.sh/)
-[How to install pytz module on mac, Python 3.6](https://teamtreehouse.com/community/how-to-install-pytz-module-on-mac-python-36)
+* [Python3 + pip](https://itsevans.com/install-pip-osx/)
+* [homebrew](https://brew.sh/)
+* [How to install pytz module on mac, Python 3.6](https://teamtreehouse.com/community/how-to-install-pytz-module-on-mac-python-36)
 
 ## Install this application script
 * This is a single-script application. You can download the git repository, but you only need the file 'normalize_csv_data.py'.
