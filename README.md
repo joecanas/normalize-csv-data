@@ -16,8 +16,8 @@ brew install pytz
 ```
 
 If you have an older version of Python and/or need to install or update a package manager, these links may prove helpful: 
-* [Python3 + pip](https://itsevans.com/install-pip-osx/)
-* [homebrew](https://brew.sh/)
+* [Installing Python 3 and Pip on Mac Os](https://itsevans.com/install-pip-osx/)
+* [Homebrew](https://brew.sh/)
 * [How to install pytz module on mac, Python 3.6](https://teamtreehouse.com/community/how-to-install-pytz-module-on-mac-python-36)
 
 ## Install the application script
