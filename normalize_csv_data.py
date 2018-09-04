@@ -98,12 +98,12 @@ def main():
         # Python 3.6+ uses OrderedDict for DictReader/DictWriter
         reader = csv.DictReader(csv_file, skipinitialspace=True)
 
-        # TODO: Verify business requirement for double-quoting all fields in CSV output.
+        # TODO: Verify business requirement for double-quoting all fields in CSV output,
+        # rather than quoting only fields containing commas.
         # The instructions state:
         #   "Please note there are commas in the Address field; your CSV parsing will need
         #    to take that into account. Commas will only be present inside a quoted string."
-        # It is ambiguous whether fields other than Address (e.g., Notes) might ever contain
-        # commas, and if so, would then be quote-bound.
+        # Commas appear in Address and Notes fields in the sample.csv input file provided.
         writer = csv.DictWriter(sys.stdout, fieldnames=reader.fieldnames, quoting=csv.QUOTE_ALL)
         writer.writeheader()
 
