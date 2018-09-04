@@ -20,7 +20,7 @@ If you have an older version of Python and/or need to install or update a packag
 * [homebrew](https://brew.sh/)
 * [How to install pytz module on mac, Python 3.6](https://teamtreehouse.com/community/how-to-install-pytz-module-on-mac-python-36)
 
-## Install this application script
+## Install the application script
 * This is a single-script application. You can [download the git repository](https://github.com/joecanas/normalize_csv_data/archive/master.zip), but you only need the file 'normalize_csv_data.py'.
 * Place the file 'normalize_csv_data.py' in the directory you'd like to use to run the application.
 
