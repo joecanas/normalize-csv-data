@@ -29,7 +29,7 @@ cd /path/to/working_directory
 * Place the script 'normalize_csv_data.py' in the directory.
 
 # Usage
-The script reads data from stdin (an input file specified at the command line, or the piped or redirected data from another application. The script parses the data to normalize it per schema-specific transformation rules, and returns the normalized data via stdout. The output can be rendered in a terminal (default), redirected to a file, or piped/redirected to another application.
+The script reads data from stdin (an input file specified at the command line, or the piped or redirected data from another application. The script normalizes the data per schema-specific transformation rules, and returns the normalized data via stdout. The output can be rendered in a terminal (default), redirected to a file, or piped/redirected to another application.
 
 1. Process a CSV file and get the normalized data returned via stdout:
 Include the CSV input file's name at the command prompt (the example below assumes the file 'sample.csv' is in the same directory as the script):
@@ -60,5 +60,6 @@ python normalize_csv_data.py sample.csv | /path/to/another_program
 
 ```
 python normalize_csv_data.py sample.csv > /path/to/data_program
+
 /path/to/another_program < python normalize_csv_data.py sample.csv
 ```
