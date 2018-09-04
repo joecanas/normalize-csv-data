@@ -57,5 +57,5 @@ python3 normalize_csv_data.py sample.csv | /path/to/another_program
 ```
 python3 normalize_csv_data.py sample.csv > /path/to/data_program
 
-/path/to/another_program < python normalize_csv_data.py sample.csv
+/path/to/another_program < python3 normalize_csv_data.py sample.csv
 ```
