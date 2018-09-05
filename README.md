@@ -41,6 +41,8 @@ python3 normalize_csv_data.py sample.csv
 python3 normalize_csv_data.py sample.csv > output_file.csv
 ```
 
+The following are aspirational options to be added and tested in a (theoretical) revision:
+
 3. Redirect CSV file input from another application via stdin to the script:
 
 ```

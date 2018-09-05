@@ -174,6 +174,7 @@ APPLICATION TESTING:
 
 NEW/MODIFIED FUNCTIONALITY (pending business requirements):
 
+- Add (and test) stdin behavior from usage options 3-5
 - Verify business requirement for double-quoting all fields in CSV output
 - Verify requirement for floating point accuracy, e.g., 3 decimal places?
 - Add data validations (length, type, characters)
