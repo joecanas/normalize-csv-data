@@ -46,6 +46,7 @@ def findUnicodeReplChar(row: dict) -> list:
 
 
 def main():
+
     # If a CSV input filename was not provided at the command line, exit with error
     if len(sys.argv) < 2:
         raise ValueError("No CSV input file provided")
@@ -59,6 +60,8 @@ def main():
         writer.writeheader()
 
         for index, row in enumerate(reader):
+
+            # Check for Unicode replacement character, and if found, display error and skip row
             unicode_repl_char_found = findUnicodeReplChar(row)
             if len(unicode_repl_char_found) > 0:
                 error_message = "Data row " + str(index + 1) \
